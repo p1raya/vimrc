@@ -1,5 +1,4 @@
 source $VIMRUNTIME/vimrc_example.vim
-"let $LANG="zh_CN.UTF-8"
 set ambiwidth=double
 set autoread
 set cindent
@@ -10,8 +9,8 @@ set fileencoding=utf-8
 set fileencodings=utf-8,ucs-bom,cp936,gb18030,latin1
 set guioptions=mR
 if has("osx") || has("macunix")
+    set guifont=DejaVu_Sans_Mono_for_Powerline:h14
     set guifontwide=兰亭黑-简\ 纤黑:h14
-    set guifontwide=simhei:h14
 else
     set guifont=DejaVu_Sans_Mono_for_Powerline:h11
     set guifontwide=simhei:h11
@@ -42,6 +41,8 @@ else
 endif
 set wrap
 "set whichwrap+=<,>,h,l
+"let $LANG="zh_CN.UTF-8"
+let mapleader=" "
 let g:html_font = 'Courier New'
 try
     set matchpairs=(:),{:},[:],《:》,〈:〉,［:］,（:）,「:」,『:』,‘:’,“:”
