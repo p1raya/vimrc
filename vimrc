@@ -105,6 +105,7 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'ap/vim-css-color'
+Plugin 'asins/vimcdoc'
 "..................................
 " vim-scripts repos
 " Indent
