@@ -7,7 +7,7 @@ set encoding=utf-8
 set foldlevel=0
 set fileencoding=utf-8
 set fileencodings=utf-8,ucs-bom,cp936,gb18030,latin1
-set guioptions=mR
+set guioptions=mt
 if has("osx") || has("macunix")
     set guifont=DejaVu_Sans_Mono_for_Powerline:h14
     set guifontwide=兰亭黑-简\ 纤黑:h14
